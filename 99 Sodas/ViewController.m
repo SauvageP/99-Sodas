@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    for (int i = 99; i > 0; i--) {
+        NSLog(@"There are %i bottle(s) on the wall.",i);
+    }
 }
 
 - (void)didReceiveMemoryWarning {
